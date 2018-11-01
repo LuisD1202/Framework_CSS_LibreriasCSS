@@ -1,9 +1,21 @@
-.logo-img{
-  width: 30%;
+.container_main{
+  margin-top: 1%;
+}
+.slogan{
+  font-family: Pescadero;
+  text-align: right;
+}
+.fav{
+  min-height: 100px;
+  padding: 5px;
+  margin: auto;
+}
+.usericon{
+  width: 180px;
 }
 
 img{
-  max-height: 129px;
+  max-height: 250px;
 }
 
 div.secondary.callout.text-center{
