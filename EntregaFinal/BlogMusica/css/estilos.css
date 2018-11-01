@@ -1,0 +1,51 @@
+.navbar-inverse {
+  min-height: 10%;
+  border: none;
+}
+.container-fluid {
+  margin-top: 1px;
+}
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+.music-body {
+  background: #000000;
+  color: white;
+}
+/*Clase para Logo*/
+.logo-img{
+  background: #000000;
+  max-height: 50px;
+  margin: 4px;
+}
+.redes-img{
+  margin: 25px;
+  max-height: 20px;
+}
+.img-comment{
+  margin-top: 15px;
+  max-height: 30px;
+}
+.comment{
+  margin-top: 5px;
+  max-height: 50px;
+}
+.img-entry{
+  margin-top: 25px;
+  width: 90%;
+}
+
+.list{
+  color: red;
+  max-width: 90%;
+}
+
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML*/
+  .right-column {
+    display: none;
+  }
+  .movies-row {
+    min-height: 250px;
+  }
+}
