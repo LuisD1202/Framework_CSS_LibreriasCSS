@@ -1,6 +1,13 @@
 .barra-superior{
-  min-height: 4rem;
+  max-height: 6rem;
 }
+.logo{
+  max-width: 50%;
+}
+div{
+  border: 1px solid red;
+}
+/*
 div[class*="columna"]{
   min-height: 50rem;
 }
@@ -17,11 +24,7 @@ div[class*="bloque"]{
 .contenedor-publicacion{
   min-height: 17rem;
 }
-.logo{
-  width: 40px;
-  margin-top: 0.5rem;
-  float: left;
-}
+
 .contenedor-noticias{
   margin-top: 1rem;
   min-height: 50rem;
@@ -57,3 +60,4 @@ div[class*="bloque"]{
     padding: 0 !important;
   }
 }
+*/

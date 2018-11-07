@@ -1,12 +1,58 @@
+body{
+    background-image: url("img/img4.jpg");
+    background-color: #cccccc;
+}
 .barra-superior{
-  min-height: 4rem;
+  min-height: 8rem;
+}
+.navbar{
+  margin-top: 2rem;
+}
+
+.logo_Turismo{
+  max-height: 8rem;
+  margin-left: 1rem;
+}
+.slogan{
+  min-height: 1rem;
+}
+.redes{
+  margin: 1rem;
 }
 div[class*="columna"]{
-  min-height: 50rem;
+  min-height: 30rem;
+  max-height: 40rem;
 }
 div[class*="bloque"]{
-  height: 25rem;
-  overflow: scroll;
+  min-height: 15rem;
+  max-height: 20rem;
+  /*overflow: scroll;*/
+}
+
+.par{
+  max-height: 20rem;
+  min-height: 17rem;
+  max-width: 90%;
+  margin: 1rem;
+}
+
+.impar{
+  max-height: 40rem;
+  min-height: 17rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  width: 85%;
+  /*overflow: scroll;*/
+}
+.img_entry{
+  max-width: 100%;
+}
+
+.profile{
+  max-width: 80%;
+  min-height: 80%;
+  margin: 2rem;
 }
 .columna-chat, .columna-news{
   padding: 0 !important;
@@ -27,10 +73,7 @@ div[class*="bloque"]{
   min-height: 50rem;
   padding: 0.5rem;
 }
-.responsive-img{
-  border: 0.6rem solid #ff8f00;
-  border-radius: 5px;
-}
+
 .buscar-campo{
   float: left;
   margin-left: 1rem;
@@ -48,12 +91,7 @@ div[class*="bloque"]{
   border-top-right-radius: 5px;
   resize: none;
   border: 1px solid #ff8f00;
-  background-color: #ff8f00;
+  background-color: white;
   height: 5rem;
   color: #fff;
-}
-@media (max-width: 600px) {
-  .columna-grupos{
-    padding: 0 !important;
-  }
 }
