@@ -19,6 +19,9 @@ body{
 .redes{
   margin: 1rem;
 }
+.imgRedes{
+  max-width: 100%;
+}
 div[class*="columna"]{
   min-height: 30rem;
   max-height: 40rem;
